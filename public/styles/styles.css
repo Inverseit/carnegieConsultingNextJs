@@ -547,6 +547,11 @@ Navbar Area CSS
   padding-bottom: 5px;
 }
 
+.logoLink{
+  height: auto;
+  width: 250px;
+}
+
 .navbar-area.navbar-style-two {
   background-color: transparent;
   padding-top: 0;
@@ -1505,6 +1510,7 @@ Main Banner Area CSS
 }
 
 .main-banner-image {
+  visibility: hidden;
   text-align: center;
 }
 

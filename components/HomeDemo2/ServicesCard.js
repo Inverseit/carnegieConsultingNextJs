@@ -51,7 +51,7 @@ export default class ServicesCard extends Component {
     render() {
         return (
             <>
-                <div className="services-area pt-100">
+                <div className="services-area pt-100" id="student-projects">
                     <div className="container">
                         <div className="section-title">
                             <span className="sub-title">
@@ -112,17 +112,17 @@ ServicesCard.propTypes = {
 
 ServicesCard.defaultProps = {
 
-    subHeading: "SERVICES",
-    heading: "Our Dedicated Services",
-    shortDec: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+    subHeading: "Events",
+    heading: "Student Projects",
+    shortDec: "The list of projects that we are doing!",
 
     services: [
         {
             id: 1,
             image: "/images/services/services1.jpg",
             altText: "Service Image",
-            title: "Financial Consultancy",
-            description: "Lorem ipsum dolor sit amet, conseteturants atal into sadipscing elitr, sed diam nonumy eirmod nsa ada tempor invidunt ut",
+            title: "Business Discussions",
+            description: "It is an opportunity for you to see something exclusive from CMU-Qs CDO Office that will help you significantly improve your resumes!",
             linkText: "Read More",
             detailsUrl: "/services-details",
         }, 
@@ -130,8 +130,8 @@ ServicesCard.defaultProps = {
             id: 2,
             image: "/images/services/services2.jpg",
             altText: "Service Image",
-            title: "Strategy Consultancy",
-            description: "Lorem ipsum dolor sit amet, conseteturants atal into sadipscing elitr, sed diam nonumy eirmod nsa ada tempor invidunt ut",
+            title: "Client Engagement",
+            description: "Client Engagements are a way to use your problem solving and analytical skills to tackle a real business challenge with a team of other students, to perform on a bigger stage than just in a classroom. ",
             linkText: "Read More",
             detailsUrl: "/services-details",
         }, 
@@ -139,7 +139,7 @@ ServicesCard.defaultProps = {
             id: 3,
             image: "/images/services/services4.jpg",
             altText: "Service Image",
-            title: "Organizational Consultancy",
+            title: "Buddy System / Case Prep",
             description: "Lorem ipsum dolor sit amet, conseteturants atal into sadipscing elitr, sed diam nonumy eirmod nsa ada tempor invidunt ut",
             linkText: "Read More",
             detailsUrl: "/services-details",
@@ -148,28 +148,10 @@ ServicesCard.defaultProps = {
             id: 4,
             image: "/images/services/services4.jpg",
             altText: "Service Image",
-            title: "Tax Consultancy",
-            description: "Lorem ipsum dolor sit amet, conseteturants atal into sadipscing elitr, sed diam nonumy eirmod nsa ada tempor invidunt ut",
+            title: "Case Competition",
+            description: "Case Competitions provide students with a glimpse into the life of a management consultant in terms of critical problem solving, team collaboration, and impact driven solutions, often in pressure situations.",
             linkText: "Read More",
             detailsUrl: "/services-details",
         }, 
-        {
-            id: 6,
-            image: "/images/services/services6.jpg",
-            altText: "Service Image",
-            title: "Marketing Consultancy",
-            description: "Lorem ipsum dolor sit amet, conseteturants atal into sadipscing elitr, sed diam nonumy eirmod nsa ada tempor invidunt ut",
-            linkText: "Read More",
-            detailsUrl: "/services-details",
-        }, 
-        {
-            id: 7,
-            image: "/images/services/services7.jpg",
-            altText: "Service Image",
-            title: "Startup Consultancy",
-            description: "Lorem ipsum dolor sit amet, conseteturants atal into sadipscing elitr, sed diam nonumy eirmod nsa ada tempor invidunt ut",
-            linkText: "Read More",
-            detailsUrl: "/services-details",
-        },
     ]
 };

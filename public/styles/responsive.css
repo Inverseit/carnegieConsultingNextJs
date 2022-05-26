@@ -179,6 +179,7 @@
     margin-right: 0 !important;
   }
   .main-banner-image {
+    display: none;
     margin-top: 35px;
   }
   .single-banner-item {
@@ -1748,6 +1749,8 @@
     margin-left: 0;
   }
   .main-banner-image {
+    visibility: hidden;
+    height: 100px;
     margin-top: 35px;
   }
   .single-banner-item {

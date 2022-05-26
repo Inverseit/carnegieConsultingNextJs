@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "@/utils/ActiveLink";
 
-const NavbarStyleOne = () => {
+const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
 
   const toggleNavbar = () => {
@@ -119,4 +119,4 @@ const NavbarStyleOne = () => {
   );
 };
 
-export default NavbarStyleOne;
+export default Navbar;
