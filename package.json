@@ -1,0 +1,29 @@
+{
+    "name": "zixon",
+    "version": "1.2.0",
+    "description": "React Next.js Business Consulting Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "next": "^12.0.4",
+        "nodemailer": "^6.7.1",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2",
+        "react-accessible-accordion": "^3.3.5",
+        "react-dom": "^17.0.2",
+        "react-owl-carousel3": "^2.2.5",
+        "react-tabs": "^3.2.3",
+        "sass": "^1.43.4",
+        "sweetalert2": "^11.2.0",
+        "sweetalert2-react-content": "^4.2.0"
+    }
+}
