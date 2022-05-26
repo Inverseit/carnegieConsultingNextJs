@@ -7,7 +7,7 @@ const Footer = () => {
         <>
             <footer className="footer-area">
                 <div className="container">
-                    <div className="row justify-content-center">
+                    <div className="row">
                         <div className="col-lg-3 col-sm-6 col-md-6">
                             <div className="single-footer-widget">
                                 <Link href="/">
