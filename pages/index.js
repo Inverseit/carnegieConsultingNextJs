@@ -11,21 +11,23 @@ import Footer from "@/components/HomeDemo2/Footer";
 import ServicesCard from "@/components/HomeDemo2/ServicesCard";
 import OurTeam from "@/components/HomeDemo2/OurTeam";
 import ContactUsForm from "@/components/HomeDemo2/ContactForm";
+import ComingSoon from "@/components/Services/ComingSoon";
 
 const IndexPage2 = () => {
   return (
-    <>
-      <Navbar />
-      <MainBanner />
-      <ForStudents />
-      <ForRecs />
-      <ForPartners />
-      <ServicesCard />
-      <Events />
-      <OurTeam />
-      <ContactUsForm/>
-      <Footer />
-    </>
+    // <>
+    //   <Navbar />
+    //   <MainBanner />
+    //   <ForStudents />
+    //   <ForRecs />
+    //   <ForPartners />
+    //   <ServicesCard />
+    //   <Events />
+    //   <OurTeam />
+    //   <ContactUsForm/>
+    //   <Footer />
+    // </>
+    <ComingSoon/>
   );
 };
 
