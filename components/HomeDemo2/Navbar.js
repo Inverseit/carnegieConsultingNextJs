@@ -37,7 +37,7 @@ const Navbar = () => {
     <>
       <div id="navbar" className="navbar-area">
         <div className="zixon-nav">
-          <div className="container-fluid">
+          <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/">
                 <a className="navbar-brand logoLink">
@@ -63,14 +63,14 @@ const Navbar = () => {
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link href="#for-students" activeClassName="active">
+                    <Link href="/about" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
-                        Students
+                        About
                       </a>
                     </Link>
                   </li>
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link href="#for-recs" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
                         Recruiters
@@ -100,14 +100,14 @@ const Navbar = () => {
                         Team
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item">
-                    <Link href="#contact-us-form" activeClassName="active">
+                    <a href="mailto:carnegie-consulting@cmu.edu" target="_blank" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
                         Contact Us
                       </a>
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
