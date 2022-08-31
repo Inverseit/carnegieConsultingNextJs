@@ -13,6 +13,7 @@ import OurTeam from "@/components/HomeDemo2/OurTeam";
 import ContactUsForm from "@/components/HomeDemo2/ContactForm";
 import Vision from "@/components/Own/Vision";
 import Photos from "@/components/Own/Photos";
+import UpcomingEvents from "@/components/Own/UpcomingEvents";
 
 const IndexPage = () => {
   return (
@@ -20,7 +21,8 @@ const IndexPage = () => {
       <Navbar />
       <MainBanner />
       <Vision/>
-      <Photos/>
+      {/* <Photos/> */}
+      <UpcomingEvents/>
       <Footer />
     </>
     // <ComingSoon/>

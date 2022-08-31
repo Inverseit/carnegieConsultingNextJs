@@ -2392,6 +2392,15 @@
   .coming-soon-image img {
     display: inline-block;
   }
+
+  .work-prog-image {
+    height: auto;
+    background-image: unset !important;
+  }
+  .work-prog-image img {
+    display: inline-block;
+  }
+
   .coming-soon-content {
     height: auto;
     padding-top: 80px;

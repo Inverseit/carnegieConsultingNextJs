@@ -48,11 +48,6 @@ const MainBanner = () => {
                                                 Some Button Link <i className="ri-arrow-right-line"></i>
                                             </a>
                                         </Link>
-                                        <Link href="/contact">
-                                            <a className="default-btn">
-                                                Other Button Link <i className="ri-arrow-right-line"></i>
-                                            </a>
-                                        </Link>
                                     </div>
                                 </div>
 

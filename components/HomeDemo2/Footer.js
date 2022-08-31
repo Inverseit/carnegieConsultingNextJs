@@ -10,23 +10,22 @@ const Footer = () => {
           <div className="row justify-content-center">
             <div className="col-lg-3 col-md-6">
               <div className="single-footer-widget">
-                <Link href="/">
-                  <a className="logo">
-                    <img src="/images/white-logo.png" alt="image" />
-                  </a>
-                </Link>
+                <div className="d-flex flex-column footer-logo-text-container">
+                  <span className="footer-logo-span">Carnegie</span>
+                  <span className="footer-logo-span">Consulting</span>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-12">
               <div className="single-footer-widget">
-                <p>
-                  Inspiring Greatness. Expanding Networks. Building Futures.
-                </p>
+                <p>Inspiring Greatness.</p>
+                <p>Expanding Networks. </p>
+                <p>Building Futures.</p>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-12">
-              <div className="single-footer-widget">
+              <div className="single-footer-widget d-flex flex-column align-items-center">
                 <div className="footer-contact-info">
                   <h5>Contact:</h5>
                   <ul>
@@ -37,6 +36,25 @@ const Footer = () => {
                     <li>
                       <span>Email:</span>{" "}
                       <a href="mailto:test@test.com">test@test.com</a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="col-lg-6 col-md-5 col-sm-6">
+                  <ul className="social-links">
+                  <li>
+                      <a href="mailto:test@test.com" target="_blank">
+                        <i className="ri-mail-fill"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/" target="_blank">
+                        <i className="ri-linkedin-fill"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/" target="_blank">
+                        <i className="ri-instagram-line"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>

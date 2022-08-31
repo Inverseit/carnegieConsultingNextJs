@@ -63,30 +63,30 @@ const Navbar = () => {
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link href="/about" activeClassName="active">
+                    <Link href="/stage/staytuned" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
                         About
                       </a>
                     </Link>
                   </li>
 
-                  {/* <li className="nav-item">
-                    <Link href="#for-recs" activeClassName="active">
+                   <li className="nav-item">
+                    <Link href="/stage/staytuned" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
-                        Recruiters
+                      Alumni
                       </a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="#for-partners" activeClassName="active">
+                    <Link href="/stage/staytuned" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
-                        Partners
+                      Resources
                       </a>
                     </Link>
                   </li>
 
-                  <li className="nav-item">
+                 {/*  <li className="nav-item">
                     <Link href="#events" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
                         Events

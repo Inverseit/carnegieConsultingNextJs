@@ -249,9 +249,9 @@ p:last-child {
   background-color: #0B65C2;
 }
 
-.default-btn.insta:hover {
+/* .default-btn.insta:hover {
   background-color: #E1306C;
-}
+} */
 
 .default-btn.insta i {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -281,10 +281,10 @@ p:last-child {
   border-radius: 5px;
   border: 1px solid #0B65C2;
 }
-.default-btn.insta::before {
+/* .default-btn.insta::before {
   border-radius: 5px;
   border: 1px solid #E1306C;
-}
+} */
 
 .default-btn:hover i {
   color: var(--mainColor);
@@ -297,7 +297,6 @@ p:last-child {
 }
 
 .default-btn.insta:hover i {
-  color: #E1306C;
   background-color: var(--whiteColor);
   background: white;
 }
@@ -7595,6 +7594,18 @@ Coming Soon Area CSS
   display: none;
 }
 
+.work-prog-image {
+  height: 100%;
+  background-image: url(/images/work-in-progres.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.work-prog-image img {
+  display: none;
+}
+
 .coming-soon-content {
   height: 100vh;
   text-align: center;
@@ -7751,7 +7762,7 @@ Coming Soon Area CSS
 Footer Area CSS
 =================================================*/
 .footer-area {
-  background-color: var(--mainColor2);
+  background-color: var(--mainColor);
   padding-top: 150px;
   position: relative;
   z-index: 1;
@@ -7790,8 +7801,9 @@ Footer Area CSS
 }
 
 .single-footer-widget p {
-  margin-top: 20px;
-  color: #d4d1d1;
+  /* margin-top: 20px; */
+  font-family: var(--headingFontFamily);
+  color: var(--whiteColor);
 }
 
 .single-footer-widget .footer-contact-info {
@@ -7811,7 +7823,8 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-contact-info ul li {
-  color: #d4d1d1;
+  /* color: #d4d1d1; */
+  color: var(--whiteColor)!important;
   margin-bottom: 10px;
 }
 
@@ -7883,6 +7896,19 @@ Footer Area CSS
   font-weight: 700;
 }
 
+.footer-logo-text-container{
+  justify-content: start;
+  align-items: flex-start;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  font-family: var(--headingFontFamily);
+}
+
+footer-logo-span {
+  margin-top: 2px;
+}
+
 .single-footer-widget .opening-hours li span {
   float: right;
   font-weight: normal;
@@ -7893,7 +7919,7 @@ Footer Area CSS
 }
 
 .copyright-area {
-  border-top: 1px solid #355253;
+  border-top: 1px solid var(--whiteColor);
   margin-top: 20px;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -7960,10 +7986,10 @@ Go Top CSS
   font-size: 30px;
   visibility: hidden;
   text-align: center;
-  color: var(--whiteColor);
+  color: var(--mainColor);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  background-color: var(--mainColor);
+  background-color: var(--whiteColor);
   -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
@@ -8191,8 +8217,40 @@ Modal CSS
 
 .vision-link-div:hover {
   background-color: var(--whiteColor);
+  border: 2px solid var(--mainColor);
 }
 
 .events-image-div{
   padding: 0% 10%;
+}
+
+.single-footer-widget .social-links {
+  margin-top: 10px;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+.single-footer-widget .social-links li {
+  display: inline-block;
+  color: var(--whiteColor);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.single-footer-widget .social-links li a {
+  display: inline-block;
+  cursor: pointer;
+  color: var(--whiteColor);
+  line-height: 1;
+  font-size: 20px;
+}
+
+
+.single-footer-widget .social-links li:first-child {
+  margin-left: 0;
+}
+
+.single-footer-widget .social-links li:last-child {
+  margin-right: 0;
 }

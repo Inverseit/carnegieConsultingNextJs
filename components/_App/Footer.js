@@ -11,9 +11,8 @@ const Footer = () => {
                         <div className="col-lg-3 col-sm-6 col-md-6">
                             <div className="single-footer-widget">
                                 <Link href="/">
-                                    <a className="logo">
-                                        <img src="/images/white-logo.png" alt="image" />
-                                    </a>
+                                    <span className='footer-logo-text'>Carnegie</span>
+                                    <span className='footer-logo-text'>Consulting</span>
                                 </Link>
                                 <p>Inspiring Greatness. Expanding Networks. Building Futures.</p>
                                 <div className="footer-contact-info">
